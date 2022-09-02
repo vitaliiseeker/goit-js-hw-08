@@ -23,7 +23,7 @@ function createGallery(items) {
 
 function createGalleryLightbox() {
 
-  const galleryLightbox = new SimpleLightbox('.gallery a', {
+  new SimpleLightbox('.gallery a', {
     captionsData: "alt",
     captionDelay: 250,
   });
